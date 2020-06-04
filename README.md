@@ -8,7 +8,7 @@ So as part of this, the database must be designed in such a way that that we can
 
 ETL PIPELINING
 
-The dataset event_data is a directory of CSV files partitioned by date. The CSV files are processed and written into a file event_datafile_new.csv to create a denormalized set. The data is modeled based on the select queries that need to be run.
+The dataset event_data is a directory of CSV files partitioned by date. The CSV files are processed and written into a file event_datafile_new.csv to create a de-normalized set. The data is modelled based on the select queries that need to be run.
 
 CODE EXECUTION
 
